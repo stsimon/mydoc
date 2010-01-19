@@ -1,0 +1,26 @@
+
+bal setup:
+  Download and install Git
+    git config --global user.name "stsimon"
+      git config --global user.email stsimon828@gmail.com
+              
+	      Next steps:
+	        mkdir mydoc
+		  cd mydoc
+		    git init
+		      touch README
+		        git add README
+			  git commit -m 'first commit'
+			    git remote add origin git@github.com:stsimon/mydoc.git
+			      git push origin master
+			            
+				    Existing Git Repo?
+				      cd existing_git_repo
+				        git remote add origin git@github.com:stsimon/mydoc.git
+					  git push origin master
+					        
+						Importing a Subversion Repo?
+						  Click here
+						        
+							When you're done:
+							  Continue
